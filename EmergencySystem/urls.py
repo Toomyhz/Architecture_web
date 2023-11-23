@@ -20,4 +20,5 @@ from .views import index, entrar, registrar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index, name="index"),
 ]
